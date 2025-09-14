@@ -34,7 +34,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate developer with 5+ years of experience creating digital solutions that make a difference
+            Passionate DevOps engineer with 5+ years of experience building scalable cloud infrastructure and automation
           </p>
         </div>
 
@@ -42,32 +42,32 @@ const About = () => {
           {/* Left side - Text content */}
           <div className="animate-slide-in-up">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a full-stack developer with a passion for creating beautiful, functional, and user-centered digital experiences. 
-              My journey in tech started 5 years ago when I discovered the perfect blend of creativity and logic that programming offers.
+              I'm a DevOps and Cloud Engineer with a passion for building robust, scalable infrastructure and streamlining development workflows. 
+              My journey in tech started 5 years ago when I discovered the power of automation and cloud technologies.
             </p>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I specialize in modern web technologies including React, TypeScript, Node.js, and cloud platforms. 
-              I believe in writing clean, maintainable code and creating intuitive user interfaces that solve real problems.
+              I specialize in cloud platforms (AWS), containerization (Docker, Kubernetes), Infrastructure as Code (Terraform), 
+              and CI/CD pipelines (Jenkins). I believe in automating everything and creating reliable, secure systems.
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-              or sharing knowledge with the developer community through blogs and talks.
+              When I'm not deploying infrastructure, you can find me exploring new DevOps tools, contributing to automation projects, 
+              or sharing knowledge about cloud best practices and system reliability.
             </p>
 
             <div className="flex flex-wrap gap-4">
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                React & Next.js
+                AWS
               </span>
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                TypeScript
+                Docker & Kubernetes
               </span>
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                Node.js
+                Terraform
               </span>
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                UI/UX Design
+                Jenkins & Ansible
               </span>
             </div>
           </div>

@@ -5,46 +5,46 @@ import { Progress } from '@/components/ui/progress';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: 'Cloud Platforms',
       skills: [
-        { name: 'React / Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'Vue.js', level: 80 },
+        { name: 'AWS', level: 95 },
+        { name: 'Docker', level: 90 },
+        { name: 'Kubernetes', level: 85 },
+        { name: 'Linux', level: 95 },
       ]
     },
     {
-      title: 'Backend Development',
+      title: 'Infrastructure as Code',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'MongoDB', level: 75 },
+        { name: 'Terraform', level: 90 },
+        { name: 'Ansible', level: 85 },
+        { name: 'CloudFormation', level: 80 },
+        { name: 'Helm', level: 75 },
       ]
     },
     {
-      title: 'DevOps & Tools',
+      title: 'CI/CD & Automation',
       skills: [
-        { name: 'Docker', level: 85 },
-        { name: 'AWS', level: 80 },
-        { name: 'Git', level: 95 },
-        { name: 'CI/CD', level: 75 },
+        { name: 'Jenkins', level: 90 },
+        { name: 'GitLab CI', level: 85 },
+        { name: 'GitHub Actions', level: 80 },
+        { name: 'ArgoCD', level: 75 },
       ]
     },
     {
-      title: 'Design & Others',
+      title: 'Monitoring & Security',
       skills: [
-        { name: 'Figma', level: 90 },
-        { name: 'UI/UX Design', level: 85 },
-        { name: 'Mobile Development', level: 70 },
-        { name: 'GraphQL', level: 80 },
+        { name: 'Prometheus', level: 85 },
+        { name: 'Grafana', level: 80 },
+        { name: 'ELK Stack', level: 75 },
+        { name: 'Security Scanning', level: 80 },
       ]
     }
   ];
 
   const tools = [
-    'Visual Studio Code', 'Figma', 'Postman', 'Slack', 'Notion', 'GitHub',
-    'Vercel', 'Netlify', 'Firebase', 'Supabase', 'Stripe', 'Cloudinary'
+    'AWS CLI', 'kubectl', 'Terraform', 'Ansible', 'Jenkins', 'Docker',
+    'Git', 'Prometheus', 'Grafana', 'Vault', 'Consul', 'Nginx'
   ];
 
   return (

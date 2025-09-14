@@ -24,15 +24,15 @@ const Hero = () => {
         <div className="animate-slide-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Hi, I'm{' '}
-            <span className="gradient-text">Alex Johnson</span>
+            <span className="gradient-text">Abhijit Ray</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-slide-in-up animate-delay-100">
-            Full Stack Developer & UI/UX Designer
+            DevOps & Cloud Engineer
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 animate-slide-in-up animate-delay-200">
-            I create beautiful, functional, and user-centered digital experiences that solve real-world problems
+            I architect and automate cloud infrastructure to deliver scalable, reliable, and secure solutions
           </p>
 
           {/* CTA Buttons */}
